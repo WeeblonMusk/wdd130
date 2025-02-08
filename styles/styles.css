@@ -1,16 +1,22 @@
+:root {
+    --navigation-background-color: darkblue; 
+    --font-color-1: white;
+}
+
+
 nav {
-    background-color: darkblue;
+    background-color: var(--navigation-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--font-color-1);
     display: block;
     padding: 20px;
 }
 
 h1  {
-    color: darkblue;
+    color: var(--navigation-background-color);
 }
 
 main img {
@@ -35,7 +41,7 @@ aside {
     margin: 1rem;
     border: 1px rgb(00,00,00/0.2);
     padding: 1rem;
-    background-color: #eee;
+    background-color: var(--font-color-1);
     color: #333;
     
 }
