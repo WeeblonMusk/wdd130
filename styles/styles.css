@@ -3,6 +3,12 @@
     --font-color-1: white;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 nav {
     background-color: var(--navigation-background-color);
@@ -59,4 +65,21 @@ footer {
     border-top: solid 2px black;
     margin-top: 1rem;
     text-align: center;
+}
+
+/* Class selectors*/
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px;
+    background-color: darkblue;
+    color: white;
+
+
+}
+aside {
+    width: 20em;
+    text-align: center;
+    color: black;
 }
