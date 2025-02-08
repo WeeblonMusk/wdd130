@@ -26,6 +26,7 @@ h1  {
 }
 
 main img {
+    float:right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -38,11 +39,11 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 700px;
 }
 
 aside {
-    max-width: 840px;
+    max-width: 20em;
     width: 20rem;
     margin: 1rem;
     border: 1px rgb(00,00,00/0.2);
@@ -50,6 +51,12 @@ aside {
     background-color: var(--font-color-1);
     color: #333;
     
+}
+
+aside h2 {
+    position: relative;
+    top: 30px;
+    left: 100;
 }
 
 aside img {
@@ -70,10 +77,11 @@ footer {
 /* Class selectors*/
 
 .box {
+    width: 20em;
     margin: 1rem;
     padding: 1rem;
     border: 1px;
-    background-color: darkblue;
+    background-color: lightblue;
     color: white;
 
 
