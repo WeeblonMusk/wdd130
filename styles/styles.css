@@ -75,8 +75,6 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors*/
-
 .box {
     width: 20em;
     margin: 1rem;
@@ -92,3 +90,5 @@ aside {
     text-align: center;
     color: black;
 }
+
+/* Class Selectors */
